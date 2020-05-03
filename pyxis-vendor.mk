@@ -18,6 +18,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/pyxis
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/pyxis/proprietary/vendor/etc/goodix/BMatrix.so:$(TARGET_COPY_OUT_SYSTEM)/etc/goodix/BMatrix.so \
+    vendor/xiaomi/pyxis/proprietary/vendor/etc/goodix/caliParamsInfo.so:$(TARGET_COPY_OUT_SYSTEM)/etc/goodix/caliParamsInfo.so \
     vendor/xiaomi/pyxis/proprietary/product/bin/dpmd:$(TARGET_COPY_OUT_PRODUCT)/bin/dpmd \
     vendor/xiaomi/pyxis/proprietary/product/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/dpm/dpm.conf \
     vendor/xiaomi/pyxis/proprietary/product/etc/init/dpmd.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/dpmd.rc \
