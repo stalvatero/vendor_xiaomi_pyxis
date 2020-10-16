@@ -65,7 +65,7 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/product/lib64/com.quicinc.cne.api@1.0.so"],
+			srcs: ["proprietary/lib64/com.quicinc.cne.api@1.0.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -81,7 +81,7 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/product/lib64/com.quicinc.cne.api@1.1.so"],
+			srcs: ["proprietary/lib64/com.quicinc.cne.api@1.1.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -97,7 +97,7 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/product/lib64/com.quicinc.cne.constants@1.0.so"],
+			srcs: ["proprietary/lib64/com.quicinc.cne.constants@1.0.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -113,7 +113,7 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/product/lib64/com.quicinc.cne.constants@2.0.so"],
+			srcs: ["proprietary/lib64/com.quicinc.cne.constants@2.0.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -129,7 +129,7 @@ cc_prebuilt_library_shared {
 	},
 	target: {
 		android_arm64: {
-			srcs: ["proprietary/product/lib64/com.quicinc.cne.constants@2.1.so"],
+			srcs: ["proprietary/lib64/com.quicinc.cne.constants@2.1.so"],
 		},
 	},
 	compile_multilib: "64",
@@ -206,7 +206,7 @@ android_app_import {
 android_app_import {
 	name: "PowerOffAlarm",
 	owner: "xiaomi",
-	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
+	apk: "proprietary/app/PowerOffAlarm/PowerOffAlarm.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -217,7 +217,7 @@ android_app_import {
 android_app_import {
 	name: "QtiTelephonyService",
 	owner: "xiaomi",
-	apk: "proprietary/product/app/QtiTelephonyService/QtiTelephonyService.apk",
+	apk: "proprietary/app/QtiTelephonyService/QtiTelephonyService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -228,7 +228,7 @@ android_app_import {
 android_app_import {
 	name: "datastatusnotification",
 	owner: "xiaomi",
-	apk: "proprietary/product/app/datastatusnotification/datastatusnotification.apk",
+	apk: "proprietary/app/datastatusnotification/datastatusnotification.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -239,7 +239,7 @@ android_app_import {
 android_app_import {
 	name: "imssettings",
 	owner: "xiaomi",
-	apk: "proprietary/product/app/imssettings/imssettings.apk",
+	apk: "proprietary/app/imssettings/imssettings.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -250,7 +250,7 @@ android_app_import {
 android_app_import {
 	name: "uceShimService",
 	owner: "xiaomi",
-	apk: "proprietary/product/app/uceShimService/uceShimService.apk",
+	apk: "proprietary/app/uceShimService/uceShimService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -261,7 +261,7 @@ android_app_import {
 android_app_import {
 	name: "HotwordEnrollmentOKGoogleHEXAGON",
 	owner: "xiaomi",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk",
+	apk: "proprietary/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -273,7 +273,7 @@ android_app_import {
 android_app_import {
 	name: "HotwordEnrollmentXGoogleHEXAGON",
 	owner: "xiaomi",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk",
+	apk: "proprietary/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -285,7 +285,7 @@ android_app_import {
 android_app_import {
 	name: "dpmserviceapp",
 	owner: "xiaomi",
-	apk: "proprietary/product/priv-app/dpmserviceapp/dpmserviceapp.apk",
+	apk: "proprietary/priv-app/dpmserviceapp/dpmserviceapp.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -297,7 +297,7 @@ android_app_import {
 android_app_import {
 	name: "ims",
 	owner: "xiaomi",
-	apk: "proprietary/product/priv-app/ims/ims.apk",
+	apk: "proprietary/priv-app/ims/ims.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -309,7 +309,7 @@ android_app_import {
 android_app_import {
 	name: "qcrilmsgtunnel",
 	owner: "xiaomi",
-	apk: "proprietary/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
